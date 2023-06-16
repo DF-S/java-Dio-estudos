@@ -23,11 +23,11 @@ public class ContaTerminal {
         double saldo = scanner.nextDouble();
 
         // Atribuindo os valores aos atributos do objeto cadastro
-        cadastro.nome = nome;
-        cadastro.agencia = agencia;
-        cadastro.numero = numero;
+        cadastro.setNome(nome);
+        cadastro.setAgencia(agencia);
+        cadastro.setNumero(numero);
 
-        cadastro.saldo = saldo;
+        cadastro.setSaldo(saldo);
 
         System.out.println("Dados do Cliente:");
         cadastro.imprimirDadosCliente();
